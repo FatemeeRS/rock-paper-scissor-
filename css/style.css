@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+main > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #8bf2b271;
+}
+
+main {
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  margin: 1rem;
+  padding: .5rem;
+  border: 1px solid #56a8bf;
+  color: #56a8bf;
+  
+}
+
+.buttonload {
+  padding: 0.5rem;
+}
+.fa-spinner {
+  padding: 0.2rem;
+}
+
+.show-i{
+    margin: 1rem;
+    color: #fff;
+    
+}
